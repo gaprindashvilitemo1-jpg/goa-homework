@@ -1,0 +1,6 @@
+#10)
+name = input("youre name : ")
+age = input("youre age : ")
+collor = input("youre fav collor : ")
+print(f"my name is {name},i am {age} years old and my fav collor is {collor} ")
+print(15)
