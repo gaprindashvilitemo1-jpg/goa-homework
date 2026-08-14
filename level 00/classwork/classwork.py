@@ -19,11 +19,11 @@
 #ტოლობა =
 #6)num1 = 5
 num2 = 10
-print(num1 + num2)
+print("num1 + num2")
 #7)saba = 20
 nika = 5
-print( saba / nika)
+print("saba / nika")
 #8)a = 5
 b = 10
 c = 2
-print(a * b * c)
+print("a * b * c")

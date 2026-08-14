@@ -8,5 +8,5 @@ while num <= n:
     if num % 2 == 0:
         total += num
     num += 1
-    
+
 print(total)

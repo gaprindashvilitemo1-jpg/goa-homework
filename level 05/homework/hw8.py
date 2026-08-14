@@ -1,0 +1,5 @@
+#8)
+num1 = int(input("enter first numb: "))
+num2 = int(input("enter secont: "))
+print(num1 * num2)
+print(15)

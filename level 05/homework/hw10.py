@@ -1,0 +1,6 @@
+#10)
+age = int(input("enter youre age: "))
+print(age)
+print(age + 10)
+print(type(age))
+print(15)

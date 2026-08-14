@@ -1,0 +1,5 @@
+#9)
+city = input("youre city : ")
+country = input("youre country : ")
+print(f"I live in {city}, {country}")
+print(15)

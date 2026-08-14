@@ -1,0 +1,6 @@
+#5)
+name = input("youre name : ")
+age = int(input("youre age : "))
+height = float(input("youre height : "))
+print(f"name: {name}, age: {age}, height: {height}")
+print(15)

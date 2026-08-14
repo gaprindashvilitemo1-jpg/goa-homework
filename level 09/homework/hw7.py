@@ -2,6 +2,7 @@
 #"ლუწი რიცხვია."
 
 #7)
-num = int(input("enter youre number: "))
-if num % 2:
-    print("ლუწი რიცხვია")
+num = int(input("enter a number: "))
+
+if num % 2 == 0:
+    print("ლუწი რიცხვია.")
