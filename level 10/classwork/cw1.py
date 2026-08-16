@@ -17,3 +17,36 @@
 #სხვა შემთხვევაში, დაბეჭდე `"F"`.
 
 #1)
+num = int(input("enter number: "))
+
+if num > 0:
+    print("დადებითი რიცხვია")
+elif num < 0:
+    print("უარყოფითი რიცხვია")
+else:
+    print("ნულის ტოლია")
+
+
+#2)
+age = int(input('enter youre age: '))
+
+if age < 18:
+    print("არასრულწლოვანი")
+elif age <= 64:
+    print("ზრდასრული")
+else:
+    print("პენსიონერი")
+
+#3)
+score = int(input("enter score: "))
+
+if score >= 90 and score <= 100:
+    print("A")
+elif score >= 80:
+    print("B")
+elif score >= 70:
+    print("C")
+elif score >= 60:
+    print("D")
+else:
+    print("F")
