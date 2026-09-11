@@ -2,4 +2,4 @@
 
 text = 'learning python is very interestng and rewarding'
 
-print(text.count(e))
+print(text.count('e'))

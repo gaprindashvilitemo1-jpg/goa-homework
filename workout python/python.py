@@ -1,5 +1,8 @@
-for i in range(4):
-    for j in range(5):
-        print('*', end = " ")
-    print()
-    
+password = (input('enter you password: '))
+
+while password != 'python123':
+    print('shesvla sheidzlbea')
+    password = input('enter youre password: ')
+print('shesvla ar sheidzleba')
+
+
