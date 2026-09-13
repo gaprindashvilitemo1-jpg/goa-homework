@@ -4,3 +4,4 @@ sentence = 'i like offline games.'
 
 sentence = sentence.replace('offline', 'online')
 print(sentence)
+

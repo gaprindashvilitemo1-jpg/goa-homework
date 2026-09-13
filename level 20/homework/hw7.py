@@ -3,3 +3,5 @@
 word = 'Developer'
 
 print(word[:5])
+
+
