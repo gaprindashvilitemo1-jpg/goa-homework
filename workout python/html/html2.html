@@ -1,26 +1,127 @@
-<!--5)კომენტარების სახით ახსენით თუ რას აკეტებს select თეგი და გააკეტეთ 1 მაგალითი
+<!--დავალება — „ჩემი საყვარელი ფილმი“
 
-# select - ის დახმარებით ჩვენ შეგვიძლია რაიმე ქალაქის ან თუნდაც რაიმე სახელწოდების არჩევა, ოღონდ საჭიროა obsion
+შექმენი ერთი HTML გვერდი თემაზე „ჩემი საყვარელი ფილმი“.
 
+გვერდზე უნდა იყოს:
 
--->
+სათაური
+
+h1 — ფილმის სახელი
+p — მოკლე აღწერა
+
+ფილმის ინფორმაცია
+
+შექმენი პატარა ცხრილი და ჩაწერე:
+
+ფილმის სახელი
+გამოსვლის წელი
+ჟანრი
+რეჟისორი
+
+გამოიყენე table, tr, th, td.
+
+ფილმის სურათი
+
+დაამატე ფილმის პოსტერი img-ის გამოყენებით.
+
+აუცილებლად გამოიყენე alt.
+
+პერსონაჟები
+
+შექმენი ul სია და ჩამოწერე მინიმუმ 4 მთავარი პერსონაჟი.
+
+რატომ მომწონს?
+
+შექმენი h2 და ქვემოთ დაწერე რამდენიმე წინადადება, რატომ მოგწონს ეს ფილმი.
+
+გამოიყენე:
+
+p
+strong
+em
+
+საყვარელი მომენტები
+
+შექმენი ol და ჩამოწერე ფილმიდან 3 საყვარელი მომენტი.
+
+ბმული
+
+დაამატე a ბმული, რომელიც ფილმის შესახებ სხვა საიტზე გადაიყვანს.
+
+პატარა ფორმა
+
+გვერდის ბოლოში შექმენი ფორმა:
+
+სახელი
+რომელი ჟანრი მოგწონს
+ფილმის შეფასება
+კომენტარი
+გაგზავნის ღილაკი
+
+პირობა
+
+გამოიყენე მხოლოდ HTML. -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ჩემი საყვარელი ფილმი</title>
 </head>
 <body>
-   <label for="">Choose youre car: </label>
-    <select name="" id="car">car brend: 
-        <option value="Bmw">Bmw</option>
-        <option value="Mercedes">Mercedes</option>
-        <option value="Audi">Audi</option>
-        
+    <form action="Register">
+    <h1><strong>Game of thrones</strong></h1>
+    <p><mark>„სატახტოთა თამაში“</mark>(Game of Thrones) არის HBO-ის ლეგენდარული ფანტასტიკური დრამატული სერიალი,
+         რომელიც ეფუძნება ჯორჯ მარტინის წიგნების სერიას <mark>„ყინულისა და ცეცხლის სიმღერა“</mark>.</p>
+    <table>
+        <tr>2011 წლის 17 აპრილს გამოვიდა "სამეფო კარის თამაშები".</tr>
+        <th>"ფილმის სახელი სამეფო კარის თამაშები"</th>
+        <td>ძირითადად ფანტასტიკის (Epic Fantasy) და დრამის ჟანრს მიეკუთვნება.</td>
+        <td>რეჟისორები არიან: მიგელ საპოჩნიკი, დევიდ ნატერი, ალან ტეილორი</td>
+    </table>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBy3ga4v3kBZUX47s8xiQpEJnRwn6EJ8LZl-jtdtj2hQ&s" alt="Game of thrones">
+    <hr>
+    <br>
+    <h2><strong>პერსონაჟბი.</strong></h2>
+    <ul>
+        <li>ედარდ (ნედ) სტარკი</li>
+        <li>რობ სტარკი</li>
+        <li>ჯონ სნოუ</li>
+        <li>ჯეიმე ლანისტერი</li>
+    </ul>
+    <br>
+    <h2>რატომ მომწონს ეს ფილმი.</h2>
+    <p>პირველ რიგში იმიტომ რომ ძალიან საინტერესოა და ისტორიასთან აქვს შეხება, პერსონაჟები ძალიან მომწონს
+        როგორიც არის <em>ჯეიმე ლანისტერი</em>ერთ ერთი ჩემი ფავორითი მსახიობია ამ სერიალში, და მომწონს ბრძოლები
+        და ასევე დრაკონები რომელიც მყოლოდ ერთ ადამიანს ყავს, მისი სახელია <strong>დენერის ტარგარიანი</strong>.
+    </p>
+    <br>
+    <h2><strong>საყვარელი მომენტი</strong></h2>
+    <ol>
+        <li>ჯონ სნოუს გაცოცხლება</li>
+        <li>წითელი ქორწილი</li>
+        <li>შავი წყლის ბრძოლა</li>
+    </ol>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of thrones wikipedia.</a>
+    <br>
+    <hr>
+    <label for="text">Enter youre name: </label>
+    <input type="text" placeholder="Enter youre name">
+    <br>
+    <label for="">what category you like: </label>
+    <select name="" id="category">
+        <option value="Drama">Drama</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="Horror">Horror</option>
     </select>
+    <br>
+    <label for="text">what you think about this series:</label>
+    <input type="text" placeholder="Comment">
+    <br>
     <button>Submit</button>
-        
+
+     </form>
 </body>
 </html>

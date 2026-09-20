@@ -1,37 +1,67 @@
-<!-- #4)ააწყვეთ სარეგისტრაციო ფორმა სადაც მომხმარებელი შემოიყვანს მის სახელს,გვარს,ემაილს,პაროლს,ტელეფონის ნომერს 
-#5)კომენტარების სახით ახსენით თუ რას აკეტებს select თეგი და გააკეტეთ 1 მაგალითი  -->
+<!--დავალება — „ჩემი საყვარელი ადგილი“
 
+შექმენი ერთი HTML გვერდი თემაზე „ჩემი საყვარელი ადგილი“.
+
+გვერდზე აუცილებლად უნდა იყოს:
+
+მთავარი სათაური — h1
+შენი საყვარელი ადგილის მოკლე აღწერა — p
+ადგილის სურათი — img
+3 რამ, რაც ამ ადგილას მოგწონს — ul და li
+3 რამ, რასაც ამ ადგილას გააკეთებ — ol და li
+ერთი ბმული — a
+პატარა ცხრილი, სადაც იქნება ადგილის შესახებ 3 ინფორმაცია — table
+ბოლოს საკონტაქტო ფორმა:
+სახელი — input
+ელფოსტა — input
+გაგზავნის ღილაკი — button -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ჩემი საყვარელი ადგილი</title>
 </head>
 <body>
-    <form action="">
-        <h1>სარეგისტრაციო ფორმა</h1>
-        <label for="text">enter youre name: </label>
-        <br>
-        <input type="text" placeholder="enter youre name">
-        <br>
-        <label for="text">enter youre last name: </label>
-        <br>
-        <input type="text" placeholder="enter youre lastname">
-        <br>
-        <label for="email">enter youre email: </label>
-        <br>
-        <input type="email" placeholder="enter youre email">
-        <br>
-        <label for="password">enter youre password: </label>
-        <br>
-        <input type="password" placeholder="enter youre password">
-        <br>
-        <label for="number">enter youre phone number: </label>
-        <br>
-        <input type="passwoord" placeholder="enter youre password">
-        <button>Submit</button>
+  <form action="Register">
+    <h1> <strong>ჩემი საყვარელი ადგილი</strong></h1>
+    <h2>"საჩხერე სოფელი კორბოული"</h2>
+    <p>ეს ადგილი მდებაროებს  ზღვის დონიდან 790 მეტრი, საჩხერიდან 18 კილომეტრი, თბილისიდან 145 კმ, ხაშურიდან 55 კმ, ჭიათურიდან 25 კმ.</p>
+    <img src="https://agronews.ge/wp-content/uploads/2024/01/korboullllllliiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii.jpg" alt="კორბოული">
+    <hr>
+    <br>
+    <h3>3 რამ რაც ამ ადგილას მომწონს.</h3>
+    <ul>
+        <li>სუფთა ჰაერი</li>
+        <li>ბუნება</li>
+        <li>ცხოველები</li>
+    </ul>
+    <hr>
+    <h3>3 რამ რაც ამ ადგილას გავაკეთებ.</h3>
+    <ol>
+        <li>მდინარეზე ბანაობა</li>
+        <li>სიმინდების მოპარვა და ჭამა</li>
+        <li>მანქანით ძმაკაცებთან ერთად სეირნობა</li>
+    </ol>
+    <hr>
+    <br>
+    <a href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%9D%E1%83%A0%E1%83%91%E1%83%9D%E1%83%A3%E1%83%9A%E1%83%98">კორბოული ვიკიპედია</a>
+    <br>
+    <table>საკმაოდ სუფთა ჰაერია რაც შენი ორგანიზმისთვის კარგია, ასევე არის ბევრი გასართობი როგორიცაა <mark>მდინარეზე</mark>ბანაობა და სასეირნო ადგილები, და არის ატრაქციონების პარკები.</table>
+    <hr>
+    <br>
+    <h2><strong>სულ ეს იყო, მადლობა ყურადღებისთბის.</strong></h2>
+    <br>
+    <h2><strong>გთხოვთ შეავსოთ საკონტაქტო ინფორმაცია, მადლობა.</strong></h2>
+    <br>
+    <label for="text">Enter youre name:</label>
+    <input type="text" placeholder="Enter youre name">
+    <br>
+    <label for="email">Enter youre email:</label>
+    <input type="email" placeholder="Enter youre email">
+    <br>
+    <button>Submit</button>
 
 
     </form>
