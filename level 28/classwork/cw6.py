@@ -9,4 +9,5 @@
 
 fruits = ["apple", "banana", "apple", "orange", "apple", "banana"]
 
-print(fruits.count('apple', 'banana'))
+print(fruits.count("apple"))
+print(fruits.count("banana"))
