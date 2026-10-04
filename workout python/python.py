@@ -1,86 +1,146 @@
+#1)საკის შემოწმება
+ #   მომხმარებელს შეაყვანინე ასაკი. თუ ასაკი 18 ან მეტია, დაბეჭდე Adult, სხვა შემთხვევაში Minor.
+#    გამოიყენე: input, int, if, else
+#2) სამი რიცხვიდან უდიდესი
+# შეაყვანინე მომხმარებელს სამი რიცხვი და იპოვე უდიდესი.
+# გამოიყენე: input, int, if, elif, else
+#3)რიცხვის დადებითობა
+ #შეაყვანინე რიცხვი და დაადგინე დადებითია, უარყოფითია თუ ნულია.
+# გამოიყენე: input, int, if, elif, else
+#4)ლუწი თუ კენტი
+#  შეაყვანინე რიცხვი და შეამოწმე ლუწია თუ კენტი.
+#  გამოიყენე: input, int, if, %
+#5) საშუალო ქულა
+#  შეაყვანინე სამი ქულა და გამოთვალე მათი საშუალო. თუ საშუალო 50-ზე მეტია ან ტოლია, დაბეჭდე Passed, წინააღმდეგ შემთხვევაში Failed.
+#  გამოიყენე: input, float, +, /, if, else
+#6) პაროლის შემოწმება
+#  მომხმარებელს შეაყვანინე პაროლი. თუ პაროლი არის "python123", დაბეჭდე Correct password, სხვა შემთხვევაში Wrong password.
+#  გამოიყენე: input, if, else
+#7) რიცხვის დიაპაზონი
+#  შეაყვანინე რიცხვი. შეამოწმე არის თუ არა ის 10-დან 50-მდე.
+#  გამოიყენე: input, int, if, and
+#8) ფასდაკლება
+#  შეაყვანინე პროდუქტის ფასი. თუ ფასი 100-ზე მეტია, დააკელი 20%. სხვა შემთხვევაში ფასი უცვლელი დატოვე.
+#  გამოიყენე: input, float, if, else, გამრავლება
+#9) სამუშაო საათები
+#  შეაყვანინე საათი 0-დან 23-მდე. თუ საათი 9-დან 18-მდეა, დაბეჭდე Working time, სხვა შემთხვევაში Free time.
+#  გამოიყენე: input, int, if, and, else
+#10) ორი რიცხვის შედარება
+#  შეაყვანინე ორი რიცხვი და დაბეჭდე რომელი უფრო დიდია, ან თუ ტოლია, დაბეჭდე Equal.
+#  გამოიყენე: input, int, if, elif, else
+#11) სამკუთხედის შემოწმება
+#  შეაყვანინე სამი გვერდის სიგრძე. შეამოწმე შესაძლებელია თუ არა ამ გვერდებით სამკუთხედის შექმნა.
+#  გამოიყენე: input, int, if, and
+#12) ტემპერატურა
+#  შეაყვანინე ტემპერატურა.
+# 30-ზე მეტი → Hot
+# 15-დან 30-მდე → Warm
+# 15-ზე ნაკლები → Cold
+#    გამოიყენე: input, float, if, elif, else
 
-#print — დაბეჭდე ერთი წინადადება, სადაც წერია შენი სახელი, ასაკი და ქალაქი.
-#ცვლადი — შექმენი ორი ცვლადი: name და age, შემდეგ ორივე დაბეჭდე.
-#input — მომხმარებელს შეაყვანინე სახელი და ქალაქი, შემდეგ დაბეჭდე ორივე ერთად.
-#int — მომხმარებელს შეაყვანინე ორი რიცხვი და დაბეჭდე მათი ჯამი.
-#float — მომხმარებელს შეაყვანინე პროდუქტის ფასი და რაოდენობა, შემდეგ გამოთვალე საერთო ფასი.
-#არითმეტიკული ოპერატორები — შეიყვანე ორი რიცხვი და დაბეჭდე მათი ჯამი, სხვაობა და ნამრავლი.
-#შედარებითი ოპერატორები — შეიყვანე ორი რიცხვი და შეამოწმე, ტოლია თუ არა ისინი.
-#and — შეიყვანე ასაკი და შეამოწმე, არის თუ არა ასაკი 13-ზე მეტი და 18-ზე ნაკლები.
-#or — შეიყვანე რიცხვი და შეამოწმე, არის თუ არა ის 10-ის ან 20-ის ტოლი.
-#not — შეიყვანე რიცხვი და not-ის გამოყენებით შეამოწმე, არის თუ არა ის 10-ისგან განსხვავებული.
-#if — შეიყვანე რიცხვი. თუ რიცხვი დადებითია, დაბეჭდე Positive.
-#if + else — შეიყვანე რიცხვი და დაადგინე, არის თუ არა ის ლუწი.
-#if + elif + else — შეიყვანე ქულა და გამოიტანე:
+#1)
+age = int(input('enter youre age:'))
+if age >= 18:
+    print('adult')
+else:
+    print('minor')
 
-#90–100 → A
-#70–89 → B
-#50–69 → C
-#50-ზე ნაკლები → Fail
+#2)
+num1 = int(input('enter youre number: '))
+num2 = int(input('enter youre sec number: '))
+num3 = int(input('enter youre third number: '))
 
-#while — while-ის გამოყენებით დაბეჭდე რიცხვები 10-დან 1-მდე.
-#for — for-ის გამოყენებით დაბეჭდე 1-დან 20-მდე მხოლოდ ლუწი რიცხები.
+if num1 >= num2 and num2>= num3:
+    print(num1)
+elif num2 >= num3 and num1 >= num3:
+    print(num2)
+else:
+    print(num3)
 
-print('my name is temo, im 16, i live in marneuli')
-name = 'temo'
-age = 16
-text = input('enter youre name and where you live: ')
-print(text)
-
+#3)
 num = int(input('enter youre number: '))
-num2 = int(input('enter youre second number: '))
-print(num + num2)
-
-price = float(input('enter youre products price: '))
-pricesec = float(input('enter youre products total: '))
-print(price * pricesec)
-
-num1 = 5
-num2 = 10
-print(num1 + num2)
-print(num1 - num2)
-print(num1 * num2)
-
-num1 = 10
-num2 = 12
-print(num1 == num2)
-
-age = 16
-print(age > 13 and 18 < age)
-
-num = 10
-print(num == 10 or 20 == num)
-
-num = 20
-print(not num == 20)
-
-num = 10
 if num >= 0:
-    print('positive')
+    print('dadebitia')
+elif num <= 0:
+    print('uaryofitia')
+else:
+    print('nulia')
 
-num = 20
+#4)
+num = int(input('enter youre number: '))
 if num % 2 == 0:
-    print('ლუწია')
+    print('luwia')
 else:
-    print('კენტია')
+    print('kentia')
 
-score = 100
-if score > 90 < 100:
-    print('A')
-elif score > 70 < 89:
-    print('B')
-elif score > 50 < 69:
-    print('C')
+#5)
+score = int(input('enter first score: '))
+score2 = int(input('enter youre second score: '))
+score3 = int(input('enter youre third score: '))
+if score >= 50 and score2 >= 50 and score3 >= 50:
+    print('chaabare')
 else:
-    print('fail')
+    print('chaiweri')
 
-i = 10
-while i >= 1:
-    print(i)
-    i -= 1
+#6)
+password = int(input('enter password python123:'))
+if password == 'python123':
+    print('right password')
+else:
+    print('wrong password')
+
+#7)
+num = int(input('enter youre number: '))
+if num >= 10 and num <= 50:
+    print('sworia')
+
+#8)
+price = float(input('enter youre price: '))
+if price >= 100:
+    print('discount 20%')
+else:
+    print('same price')
+
+#9)
+clock = float(input('enter clock 0-23: '))
+if clock >= 9 and clock <= 18:
+    print('working time')
+else:
+    print('free time')
+
+#10)
+num1 = int(input('enter youre first number: '))
+num2 = int(input('enter youre second number: '))
+
+if num1 > num2:
+    print(num1)
+elif num2 > num1:
+    print(num2)
+
+#11)
 
 
-for i in range(1, 20):
-    if i % 2 == 0:
-        print(i)
 
+
+
+
+#12)
+
+temperature = int(input('enter youre temp: '))
+if temperature >= 30:
+    print('Hot')
+elif temperature >= 15 and temperature <= 30:
+    print('warm')
+elif temperature <= 15:
+    print('cold')
+  
+
+    
+
+
+
+
+
+
+
+ 

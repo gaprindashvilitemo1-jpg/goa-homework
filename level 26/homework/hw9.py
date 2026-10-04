@@ -10,5 +10,6 @@ fruits = ["Apple", "Samsung", "Xiaomi", "Huawei"]
 fruits.append('Nokia')
 
 remove = fruits.remove('Xiaomi')
+
 print(remove)
 print(fruits)

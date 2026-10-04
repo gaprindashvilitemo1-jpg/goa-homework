@@ -6,5 +6,5 @@
 
 fruits = ["ვაშლი", "ბანანი", "მსხალი", "ატამი"]
 
-fruits.insert(2, 'ფორთოხალი')
+fruits.insert(1, 'ფორთოხალი')
 print(fruits)

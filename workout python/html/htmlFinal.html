@@ -1,127 +1,93 @@
-<!--შექმენით ვებსაიტი სასურველ თემაზე გამოიყენეთ ნასწავლი მასალა საიტზე უნდა იყოს მინიმუმ
- 4 გვერდი და აუცილებლად სარეგისტრაციო გვერდიც და საიტზე უნდა ხდებოდეს ნავიგაცია -->
+<!--ავტომობილების საიტი
 
- <!DOCTYPE html>
- <html lang="en">
- <head>
+თემა: „My Dream Cars“
+
+შეგიძლია გქონდეს:
+
+header → საიტის სათაური
+nav → მთავარი მენიუ
+main → მთავარი ინფორმაცია
+section → BMW / Mercedes / Audi
+article → თითოეული მანქანის აღწერა
+img → მანქანის ფოტოები
+h1, h2, h3 → სათაურები
+p → აღწერები
+ul, ol, li → მანქანების სიები
+a → მანქანის ოფიციალურ გვერდებზე გადასვლა
+table → ფასი, ძრავი, სიმძლავრე
+form → მომხმარებლის აზრი
+input, label, textarea, but -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discord</title>
- </head>
- <body>
-    <form action="">
-        <h1>Discord დარეგისტრირება</h1>
-        <label for="text">enter youre name:</label>
-        <br>
-        <input type="text" placeholder="enter youre name">
-        <br>
-        <label for="text">enter youre last name: </label>
-        <br>
-        <input type="text" placeholder="enter youre last name">
-        <br>
-        <label for="email">enter youre email: </label>
-        <br>
-        <input type="email" placeholder="enter youre email">
-        <br>
-        <label for="password">enter youre password: </label>
-        <br>
-        <input type="password" placeholder="enter youre password">
-        <br>
-        <h2>ხშირი მომხმარებელი იქნები?</h2>
-        <label for="radio">დიახ.</label>
-        <input type="radio">
-        <label for="radio">არა</label>
-        <input type="radio">
-        <br>
-        <h2>საიდან გაიქე ამ საიტის შესახებ?</h2>
-        <label for="checkbox">მეგობრები: </label>
-        <input type="checkbox">
-        <br>
-        <label for="checkbox">მშობლები: </label>
-        <input type="checkbox">
-        <br>
-        <label for="checkbox">ონლაინ: </label>
-        <input type="checkbox">
-        <br>
-        <label for="checkbox">სხვა: </label>
-        <input type="checkbox">
-        <br>
-        <h2>აირჩიე რა დევაისით შემოხვალ</h2>
-        <select name="" id="">device
-            <option value="ტელეფონი">ტელეფონი</option>
-            <option value="კომპიუტერი">კომენტარების</option>
-            <option value="სხვა">სხვა</option>~
+    <title>My dream cars</title>
+</head>
+<body>
+    <form action="Register">
+        <header>
+            <h1><strong>My dream car</strong></h1>
+            <h3>ჩემი ოცნების მანქნა არის M5 e60</h3>
+            <p>BMW M5 E60 არის ლეგენდარული სპორტული სედანი, რომელიც BMW M დივიზიამ 2005-2010 წლებში აწარმოა.
+                 ეს მოდელი ავტოსამყაროში განსაკუთრებულ ადგილს იკავებს, რადგან ის არის პირველი და ერთადერთი M5,
+                  რომელიც აღიჭურვა ფორმულა 1-ის შთაგონებით შექმნილი V10 ატმოსფერული ძრავით.</p>
+        </header>
+
+        <br><br>
+
+        </main>
+        <h3>შენ რომელი მანქანის მოდელს ამჯობინებ?</h3>
+        <label for="car">choose youre car:</label>
+        <select >
+            <option value="BMW">BMW</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Audi">Audi</option>
         </select>
-        <button>Submit</button>
-        <hr>
-        <div>
-
-        <h2>ძალიან გამოსადეგარი საიტია</h2>
-        <h3>რადგან თითქმის სუყველაფრის გაკეთება შეგიძლია</h3>
-        <p>როგორიც არისს მეგობრებთან ერთად თამაში ან სხვა რაიმე</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlZkClAhvir1CFqsPeM6pX5czzuGlYNkvQE3hosdQ6Dg&s=10" alt="Discordi">
-        <a href="https://en.wikipedia.org/wiki/Discord">discord wikipedia</a>
         <br>
-        <h3>შეგიძლია კიდე ბევრი რამის გაკეთება: </h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT97HThqq_SSdbCJ8cotASV0H22hRub5cfdh5xyXaqhuw&s=10" alt="m5 e60">
+        <nav>
+            <a href="https://en.wikipedia.org/wiki/BMW_5_Series_(E60)">bmw m5 e60 informacia</a>
+            <a href="https://myauto.ge/en/catalog/submodellist/747">aseve sad shegizlia sheidzinoo</a>
+        </nav>
+
+        <br><br>
+
+        <h2>რატომ ღირს ამ მანქანის ყიდვა?</h2>
         <ul>
-            <li>ფულის შოვნა</li>
-            <li>განათლების მიღება</li>
-            <li>ან თუნდაც თამაში</li>
+            <li>ძრავი (ლეგენდარული, სარბოლო ხმის მქონე V10).</li>
+            <li>ხმა (ფორმულა 1-ის მსგავსი ჟღერადო</li>
+            <li>დინამიკა (მართვისა და აჩქარების ემოცია).</li>
         </ul>
+
         <br>
-        <hr>
-        <h4>ასევე კიდევ აქვს: </h4>
+
+        <h2>რასთან უნდა იყო ფრთხილად?</h2>
         <ol>
-            <li>რაიმე <mark>გეიმპასის</mark>ყიდვა</li>
-            <li>მეგობრისთვის რაიმის ჩუქება</li>
-            <li>ან თუნდაც ერთად ფილმის ყურება</li>
+            <li>კოლოფი (სენსიტიური და პრობლემური SMG რობოტი).</li>
+            <li>საკისრები (ძრავის ბარბაცას საკისრები, ე.წ. "შატუნის ვკლადიშები")</li>
+            <li>ელექტრონიკა (რთული და ხშირი დაზიანებების მქონე სისტემები)</li>
         </ol>
-        <hr>
-        <p>პირადად ჩემთვის ძალიან საჭიროა რადგანაც მე ვსწავლობ <strong>გოას აკადემიაში</strong> და ასევე დისქორდი მეხმარება მეგობრებთან <strong>კონტაქტში</strong>
-        ყველას ვურჩევ დისქორდის გამოყენებას რადგან ყველაფერს გაუადვილებთ</p>
-        </div>
-<hr>
-        <h1>ამ დროისთვის სულ ეს იყო</h1>
-        <h3>მადლობა ყურადღების დათმობისთვის</h3>
-        <mark>ნახვამდისს!!!!</mark>
 
+        <table>
+            BMW M5 E60-ის საშუალო ფასი <mark>$25,000-დან $50,000</mark>-მდე მერყეობს, იგი აღჭურვილია 5.0-ლიტრიანი ატმოსფერული V10 ძრავით, რომელიც 507 ცხენის ძალას გამომუშავებს.
+        </table>
 
+        <br><br>
 
+        <label for="car">იყიდიდი ამ მანქანას?: </label>
+        <input type="text" placeholder="აქ შეიყვანე...">
 
+        <br>
+        <button type="submit">Submit</button>
+        </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <footer>
+        <h1>სულ ეს იყოო</h1>
+        <h2>მადლობა ყურადღებისთვისს!!!</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNuPgQO3qgUmKOMYDKkvyBB5qVZuxeBLba0CmRLKCkUw&s=10" alt="thanks">
+        </footer>
     </form>
-    
- </body>
- </html>
+</body>
+</html>
