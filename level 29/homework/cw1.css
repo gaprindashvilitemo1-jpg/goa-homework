@@ -1,0 +1,28 @@
+div {
+
+    width: 400px;
+    border-radius: 20px;
+    background-color: grey;
+    margin: 0;
+    padding: 40px;
+}
+h1 {
+    font-size: 24px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h3Third {
+    font-size: 16px;
+    color: black;
+}
+.h3Sec {
+    font-size: 30px;
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 10;
+    padding: 10px;
+}
