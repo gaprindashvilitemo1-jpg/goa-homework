@@ -1,0 +1,49 @@
+.div1 {
+    display: inline-block;
+    background-color: rgb(252, 253, 253);
+    border: 3px solid rgb(70, 70, 70);
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 500px;
+    
+}
+.div2 {
+    display: inline-block;
+    background-color: rgb(252, 253, 253);
+    border: 3px solid rgb(70, 70, 70);
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.ss1 {
+    color: grey;
+}
+.btt1 {
+    background-color: rgb(46, 40, 40);
+    color: white;
+}
+.btt2 {
+    background-color: rgb(46, 40, 40);
+    color: white;
+}
+.divdiv {
+    background-color: rgb(218, 210, 210);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.btt4 {
+    background-color: rgb(46, 40, 40);
+    color: white;
+}
+.btt3 {
+    background-color: rgb(46, 40, 40);
+    color: white;
+    text-align: center;
+
+}

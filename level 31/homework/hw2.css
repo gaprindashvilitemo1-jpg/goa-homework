@@ -1,0 +1,50 @@
+.div1 {
+    display: inline;
+    background-color: rgb(61, 15, 83);
+    border: 2px solid rgb(0, 0, 0);
+    width: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px gray;
+    margin: 20px;
+}
+.div2 {
+    display: inline;
+    background-color: rgb(83, 15, 60);
+    border: 2px solid rgb(0, 0, 0);
+    width: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px gray;
+    margin: 20px;
+}
+.div3 {
+    display: inline;
+    background-color: rgb(15, 47, 83);
+    border: 2px solid rgb(0, 0, 0);
+    width: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px gray;
+    margin: 20px;
+}
+.div4 {
+    display: inline;
+    background-color: rgb(15, 83, 74);
+    border: 2px solid rgb(0, 0, 0);
+    width: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px gray;
+    margin: 20px;
+}
+.div5 {
+    display: inline;
+    background-color: rgb(15, 83, 38);
+    border: 2px solid rgb(0, 0, 0);
+    width: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px gray;
+    margin: 20px;
+}

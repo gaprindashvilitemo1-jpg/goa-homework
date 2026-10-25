@@ -5,3 +5,5 @@ languages = ("Python", "JavaScript", "Java", "C++")
 
 print(languages.in('Python'))
 print(languages.in('PHD'))
+
+#არ ვიცი არ გვისწავლია

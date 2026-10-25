@@ -3,5 +3,4 @@
 
 num = (10, 20, 30, 40, 50, 60)
 
-num.len()
-print(num)
+print(len(num))

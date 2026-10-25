@@ -1,0 +1,92 @@
+.div1 {
+    display: block;
+    background-color: rgb(37, 37, 37);
+    border: 3px solid rgb(37, 37, 37);
+    width: 320px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px, 8px, 8px gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 240px;
+    left: 600px;
+}
+
+
+.btt1 {
+    display: block;
+    width: 250px;
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.btt2 {
+    display: block;
+    width: 250px;
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+.btt3 {
+    display: block;
+    width: 250px;
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+}
+.btt4 {
+    display: block;
+    width: 250px;
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+}
+.btt5 {
+    display: block;
+    width: 250px;
+    text-align: center;
+    color: white;
+    border: 2px solid rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+}
+.imgg1 {
+    display: block;
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.hh2 {
+    text-align: center;
+    color: rgb(250, 250, 250);
+}
+.pp1 {
+    text-align: center;
+    color: rgb(7, 209, 24);
+}
+.pp2 {
+    text-align: center;
+    color: gray;
+}

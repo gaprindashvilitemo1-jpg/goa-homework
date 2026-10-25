@@ -1,0 +1,68 @@
+.card1 {
+            display: block;
+            background-color: lightblue;
+            border: 2px solid blue;
+            width: 250px;
+            height: 100px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 3px 3px 8px gray;
+            margin: 20px;
+        }
+
+        .card2 {
+            display: block;
+            background-color: lightgreen;
+            border: 3px solid green;
+            width: 200px;
+            height: 120px;
+            padding: 15px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+
+        .card3 {
+            display: block;
+            background-color: lightpink;
+            border: 2px solid red;
+            width: 300px;
+            height: 80px;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+
+
+
+        
+
+.btn1 {
+            display: inline;
+            background-color: blue;
+            color: white;
+            margin: 10px;
+            width: 150px;
+            height: 60px;
+        }
+
+        .btn2 {
+            display: inline;
+            background-color: green;
+            color: yellow;
+            margin: 10px;
+        }
+
+        .btn3 {
+            display: inline;
+            background-color: red;
+            color: white;
+            margin: 10px;
+        }
+
+        .btn4 {
+            display: inline;
+            background-color: purple;
+            color: white;
+            margin: 10px;
+        }

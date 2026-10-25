@@ -3,4 +3,8 @@
 
 animals = ('dog', 'cat', 'parot', 'hamster', 'horse', 'rabit')
 
-print(animals[:3])
+#print(animals[:3])
+
+print(animals[0])
+print(animals[1])
+print(animals[2])

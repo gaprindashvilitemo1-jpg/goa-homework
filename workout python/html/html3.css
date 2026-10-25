@@ -1,0 +1,33 @@
+.div1 {
+    display: block;
+    background-color: rgb(252, 252, 252);
+    border: 3px solid rgb(215, 221, 221);
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px, 12px, 12px gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imgg1 {
+    border-radius: 20px;
+    align-items: center;
+}
+.div2 {
+    display: block;
+    border: 2px solid rgb(248, 231, 234);
+    background-color: rgb(248, 231, 234);
+    border-radius: 20px;
+    margin: 10px;
+}
+.hh4 {
+    color: rgb(255, 45, 80);
+    margin: 5px;
+}
+.hh3 {
+    color: rgb(255, 148, 166);
+    margin: 10px;
+}
+.span {
+    color: black;
+}

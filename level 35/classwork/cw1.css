@@ -1,0 +1,31 @@
+.div {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #333;
+    border-radius: 20px;
+}
+
+.div1 {
+    background-color: rgb(62, 152, 182);
+    position: static;
+}
+
+.div2 {
+    background-color: rgb(17, 54, 17);
+    position: static;
+}
+
+.div3 {
+    background-color: rgb(194, 52, 74);
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.div4 {
+    background-color: rgb(59, 59, 23);
+    position: relative;
+    bottom: 20px;
+    right: -30px;
+}

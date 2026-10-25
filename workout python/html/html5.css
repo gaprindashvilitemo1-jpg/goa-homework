@@ -1,0 +1,29 @@
+.div1 {
+    display: inline-block;
+    background-color: rgb(139, 184, 214);
+    border: 3px solid rgb(23, 33, 39);
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px, 8px, 8px gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imgg1 {
+    border-radius: 10px;
+    border: 1px solid rgb(23, 33, 39);
+}
+.hh1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imgg2 {
+    border-radius: 10px;
+    border: 1px solid rgb(23, 33, 39);
+}
+.hh2 {
+    text-align: center;
+}
+.hh3 {
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+.div1 {
+    display: block;
+    background-color: rgb(228, 85, 80);
+    border: 2px solid rgb(0, 0, 0);
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px gray;
+    margin: 20px;
+}
+.div2 {
+    display: block;
+    background-color: rgb(140, 221, 93);
+    border: 2px solid rgb(0, 0, 0);
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px gray;
+    margin: 20px;
+}
+.div3 {
+    display: block;
+    background-color: rgb(221, 219, 93);
+    border: 2px solid rgb(0, 0, 0);
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px gray;
+    margin: 20px;
+}
