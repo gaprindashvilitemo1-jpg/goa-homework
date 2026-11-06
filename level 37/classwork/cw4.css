@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 20px;
+}
+
+.child1  {
+    background-color: red;
+}
+
+.child2 {
+    background-color: blue;
+}
+
+.child3 {
+    background-color: green;
+}
+
+.child4 {
+    background-color: orange;
+}

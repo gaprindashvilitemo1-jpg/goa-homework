@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    height: 400px;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    margin: 10px;
+}
+

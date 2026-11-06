@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    background-color: lightgray;
+}
+
+.amg {
+    width: 100px;
+    background-color: lightblue;
+    text-align: center;
+    margin: 10px;
+}
+
+.cls1 {
+    height: 100px;
+}
+
+.cls2 {
+    height: 150px;
+}
+
+.cls3 {
+    height: 200px;
+}

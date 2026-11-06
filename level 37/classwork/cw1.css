@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
