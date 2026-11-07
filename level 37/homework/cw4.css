@@ -1,0 +1,12 @@
+
+.main {
+    gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px;
+}

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: stretch;
+    gap: 20px;
+}
+.div1 {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+.div2 {
+    background-color: aqua;
+    width: 100px;
+    height: 150px;
+}
+.div3 {
+    background-color: aqua;
+    width: 100px;
+    height: 170px;
+}
+.div4 {
+    background-color: aqua;
+    width: 100px;
+    height: 200px;
+}

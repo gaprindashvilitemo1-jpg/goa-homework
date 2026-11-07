@@ -1,20 +1,20 @@
-.hh1 {
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
+body {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.hh2 {
-    color: blue;
-    font-family: 'Courier New', Courier, monospace;
+.div1 {
+    background-color: rgb(161, 180, 126);
+    border: 3px solid rgb(10, 10, 10);
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px, 12px, 12px gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
-.hh3 {
-    color: green;
-    font-family: 'Courier New', Courier, monospace;
-}
-.hh4 {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-}
-.hh5 {
-    color: rgb(255, 0, 255);
-    font-family: 'Courier New', Courier, monospace;
+img {
+    border-radius: 20px;
 }
